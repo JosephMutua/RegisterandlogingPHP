@@ -1,10 +1,18 @@
 <?php
-    include('includes/header.php');
+
+    include("includes/header.php");
+
 ?>
 
-  <!-- Login form -->
-  <h2>Login Here</h2>
-  <form action="/action_page.php">
+<form action="/action_page.php">
+<div class="mb-3 mt-3">
+    <label for="text" class="form-label">First Name:</label>
+    <input type="text" class="form-control" id="Fname" placeholder="Enter First Name" name="fname" required>
+</div>
+<div class="mb-3 mt-3">
+    <label for="text" class="form-label">Last Name:</label>
+    <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname" required>
+</div>
   <div class="mb-3 mt-3">
     <label for="email" class="form-label">Email:</label>
     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
@@ -20,10 +28,8 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-<!-- end of login form -->
+<!-- end of register form -->
 
 <?php
-
-    include('includes/footer.php')
-
+    include("includes/footer.php");
 ?>
