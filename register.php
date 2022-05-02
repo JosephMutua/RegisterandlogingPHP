@@ -3,8 +3,10 @@
     include("includes/header.php");
 
 ?>
-
-<form action="/action_page.php">
+<!-- Register Form-->
+<div class="col-md-6">
+    <h2>Register Here</h2>
+<form action="action_page.php" method = "POST">
 <div class="mb-3 mt-3">
     <label for="text" class="form-label">First Name:</label>
     <input type="text" class="form-control" id="Fname" placeholder="Enter First Name" name="fname" required>
@@ -26,10 +28,12 @@
       <input class="form-check-input" type="checkbox" name="remember"> Remember me
     </label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary">Register</button>
 </form>
-<!-- end of register form -->
 
+<div>
+<!-- end of register form -->
+<a href="index.php" class="btn btn-success">Click to Login</a>
 <?php
     include("includes/footer.php");
 ?>
