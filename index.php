@@ -5,7 +5,7 @@
   <!-- Login form -->
   <div class="col-md-6">
   <h2>Login Here</h2>
-  <form action="#" method = "POST">
+  <form action="log_action.php" method = "POST">
   <div class="mb-3 mt-3">
     <label for="email" class="form-label">Email:</label>
     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
