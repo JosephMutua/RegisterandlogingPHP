@@ -14,7 +14,7 @@
     $num = mysqli_num_rows($result);
     if ($num == 1){
         $_SESSION['Useremail']=$email;
-        header ('location:dash.php');
+        header ('location: ../dash.php');
     }
     else{
         echo 'Wrong password or email';

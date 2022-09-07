@@ -1,11 +1,11 @@
 <?php
-    include('includes/header.php');
+    include('includes/header-inc.php');
 ?>
 
   <!-- Login form -->
   <div class="col-md-6">
   <h2>Login Here</h2>
-  <form action="log_action.php" method = "POST">
+  <form action="includes/log_action.php" method = "POST">
   <div class="mb-3 mt-3">
     <label for="email" class="form-label">Email:</label>
     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
@@ -25,6 +25,6 @@
 <a href="register.php" class="btn btn-success">Click to Register</a>
 <?php
 
-    include('includes/footer.php')
+    include('includes/footer-inc.php')
 
 ?>
